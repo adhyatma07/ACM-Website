@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Glassmorphism Login and Signup Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="https://www.acm.org/"><img src="logo.png"></a>
+                <div class="collegename"><h3>Association for Computing Machinery</h3>
+                <p>AITM, BELAGAVI</p>
+                </div>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="team.html">Team Members</a></li>
+                <li><a href="https://www.acm.org/">Join Club</a></li>
+                <li><a href="subscribe.html"><i class="fa-solid fa-user"></i>  Subscribe</a></li>
+                <li><a href="contact.html">Contact<i class="fa-solid fa-phone-volume"></i></a></li>
+               
+            </ul>
+        </nav>
+        </header>  
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class="locontainer">
+        <div class="form-container" id="formContainer">
+            
+            <div class="form-box signup-box" id="signupBox">
+                <form id="signupForm">
+                    <label for="signupUsername">Username</label>
+                    <input type="text" placeholder="Username" id="signupUsername" required>
+
+                    <label for="signupEmail">Email</label>
+                    <input type="email" placeholder="Email" id="signupEmail" required>
+
+                    <label for="signupPassword"> <div class="footer-right">
+                        <a href="https://www.facebook.com/aitmbgm" target="_blank" class="social-link">
+                            <img src="file.png" alt="Facebook" class="social-icon" width="50px">
+                        </a>
+                        <a href="https://www.linkedin.com/in/angadi-institute-of-technology-and-management-belagavi-488231275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link">
+                            <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+                        </a>
+                        <a href="https://www.instagram.com/acmaitm?igsh=ZzBydmp0dXZzcXdo" target="_blank" class="social-link">
+                            <img src="insta.png" alt="Instagram" class="social-icon">
+                        </a>
+                    </div></label>
+                    <!-- <input type="password" placeholder="Password" id="signupPassword" required> -->
+
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
